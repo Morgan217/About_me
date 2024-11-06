@@ -33,6 +33,17 @@ td
     width:200px; 
 } 
 
+table {
+  background-color: rgba(0, 0, 0, 0.05); /* Adjust the RGB color and opacity as desired */
+  padding: 10px; /* Optional: Adds padding inside the table */
+  border-collapse: collapse; /* Optional: Removes gaps between table cells */
+}
+
+table th, table td {
+  background-color: rgba(255, 255, 255, 0.8); /* Faded background for table cells */
+  padding: 8px; /* Space inside each cell */
+  border: 1px solid #ddd; /* Optional: Light border around cells */
+}
 
 /*=======Header section===========*/
 
